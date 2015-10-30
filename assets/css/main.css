@@ -1,0 +1,171 @@
+body{
+	background:rgba(216,216,216,1);
+}
+
+td{
+	text-align:center;
+}
+
+.navbar td{
+	padding:0px 50px;
+	cursor:pointer;
+	white-space: nowrap;
+}
+
+.navbar{
+	background:#c5c5c5;
+	border-color:#b3b3b3;
+}
+
+.navbar td, .leaderboard-year, .leaderboard-score{
+	font-family: 'Play', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.navbar-fixed-top td{
+	color:rgba(255,255,255,0.7);
+}
+
+.navbar-fixed-bottom td{
+	color:rgba(120, 120, 120, 0.7);
+}
+
+.navbar-fixed-top .year-name{
+	color:rgba(120,120,120, 0.7);
+	padding-right:5px;
+}
+
+.navbar-fixed-top .container-fluid{
+	overflow:hidden;
+}
+
+.navbar-fixed-bottom .container-fluid{
+	overflow:auto;
+}
+
+#leaderboard-modal .modal-header, #leaderboard-modal .modal-footer{
+	background:#959595;
+	border-color:rgb(179, 179, 179);
+	color:rgba(255, 255, 255, 0.4);
+	text-align:center;
+}
+
+#leaderboard-modal .modal-title{
+	font-size:38px;
+	font-family:'Raleway', sans-serif;
+	font-weight:300;
+}
+
+#leaderboard-modal .modal-body .container{
+	width:100%;
+}
+
+#leaderboard-modal .modal-body{
+	background:#999;
+	padding:0px;
+}
+
+#leaderboard-modal .modal-footer .btn{
+	width:100%;
+}
+
+#leaderboard-modal .modal-body  .row:nth-child(2n){
+	background:#999;
+}
+
+#leaderboard-modal .modal-body  .row:nth-child(2n+1){
+	background:#a5a5a5;
+}
+
+#leaderboard-modal .modal-body .container{
+	padding:0px;
+}
+
+.leaderboard-year, .leaderboard-score{
+	text-align:center;
+}
+
+.leaderboard-year{
+	color:#787878;
+}
+
+.leaderboard-score{
+	color:#555;
+}
+
+#title{
+	top:50px;
+	width:100%;
+	font-family:'Raleway', sans-serif;
+	font-size:11.5vw;
+	font-weight:100;
+	position:absolute;
+	color:rgba(0,0,0,0.3);
+}
+
+#content{
+	margin-top:19vw;
+}
+
+#content-images img{
+	width:5vw;
+	height:auto;
+}
+
+#content .btn{
+	overflow:hidden;
+}
+
+.btn-selector{
+	color:rgba(0,0,0,0.51);
+	background:rgba(101, 105, 107, 0.13);
+	border-color:rgba(137, 137, 137, 0.17);
+}
+
+.btn-selector:hover{
+	color:rgba(0,0,0,0.51);
+	background:rgba(101, 105, 107, 0.06);
+}
+
+.btn-selector .singer-name{
+	color:rgba(0,0,0,0.23);
+}
+
+.btn-selected, .btn-selected:hover{
+	color:white;
+	background:rgba(101, 105, 107, 0.37);
+	border-color:rgba(128, 128, 128, 0.2);
+}
+
+.btn-selected .singer-name{
+	color:rgba(255,255,255,0.5);
+}
+
+.btn-clear{
+	color:rgba(255,255,255,0.68);
+	background:rgba(83,83,83,0.38);
+	border-color:rgba(68,68,68,0.16);
+}
+
+#content .btn-clear{
+	margin-top:20px;
+	margin-bottom:120px;
+}
+
+.btn-clear:hover{
+	color:white;
+}
+
+.song-score{
+	position:absolute;
+	top:12px;
+	left:25px;
+	padding:5px;
+	width:30px;
+	height:30px;
+	border-radius:100px;
+	text-align:center;
+	background:rgba(51, 51, 51, 0.35);
+	color:white;
+}
